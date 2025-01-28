@@ -15,4 +15,6 @@ Si tiene más de 70 debería mostrar por pantalla que "¿No es la hora de tu med
 
 En otro caso mostrará "Bienvenido, puedes pasar".
 
+RESTRICCIÓN: Comprueba que el usuario no puede introducir valores incorrectos como año de nacimiento.
+
 """
