@@ -9,10 +9,10 @@ El programa calacula su edad y en función de eso, imprime alguno de los siguien
 
 Si el usuario tiene menos de dieciocho años ha de decir, "Lo siento, no tienes la edad suficiente".
 
-Si el usuario, siendo mayor de edad tiene más de cincuenta, entonces deberá decir: "El bingo es en la sala de abajo".
+Si el usuario, siendo mayor de edad, tiene más de cincuenta, entonces deberá decir: "El bingo es en la sala de abajo".
 
 Si tiene más de 70 debería mostrar por pantalla que "¿No es la hora de tu medicación?".
 
-En otro caso "Bienvenido, puedes pasar".
+En otro caso mostrará "Bienvenido, puedes pasar".
 
 """
