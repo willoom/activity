@@ -1,5 +1,5 @@
 : '
-Sxcript de backup de directorio de configuración del sistema /etc
+Script de backup de directorio de configuración del sistema /etc
 
 Crea un script llamado etcbackup.sh que en el directorio /root/backup guarde un fichero con nombre 
 YYYYMMDD_HHmm_etc.tar.bz2, que sea compilación comprimida con algoritmo Bzip2 del directorio de 
