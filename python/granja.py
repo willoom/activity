@@ -36,6 +36,7 @@ La oveja Zolly dice: beee!
 El perro Rex dice: guau!
 La vaca Lola dice: muuu!
 La vaca Pepa dice: muu!
+El caballo Percherón dice: hiii!
 
 En un mismo bucle debéis iterar sobre los objetos de la clase 
 Animal y dar una salida por pantalla similar a la anterior.
