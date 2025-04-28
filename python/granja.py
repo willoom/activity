@@ -42,6 +42,6 @@ Animal y dar una salida por pantalla similar a la anterior.
 
 Cualquier animal que sea subclase de la clase Animal debe tener
 un método responde() que muestra por pantalla un mensaje del tipo
-X dice: Y!
+EL_O_LA_ANIMAL NOMBRE dice: ONOMATOPEYA!
 """
 print("Egidio, el granjero de Ham, saluda a sus animales.")
