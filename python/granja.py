@@ -9,8 +9,10 @@ Tendremos que declarar varios animales sabiendo que todo animal tiene
 un nombre.
 
 No obstante cada uno habla de una manera.
-El cerdo dice oink, el caballo dice hiiii, la oveja dice beeee, el 
-perro dice guau y la vaca dice muuu.
+El cerdo dice oink, el caballo dice hiiii, 
+La oveja dice beeee, 
+El perro dice guau y 
+La vaca dice muuu.
 
 Tenéis que crear una lista con dos cerdos dándole nombres, 
 otra lista de cuatro ovejas, una lista de un perro y dos vacas.
