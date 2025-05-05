@@ -11,6 +11,9 @@ arbitrario.
 Lee y escribe carácter a carácter.
 
 Completa el código.
+
+Asumid que el mensaje se codifica sólo con letras en minúsculas.
+No codificamos otros caracteres, que se respetarán tal cual, por legibilidad.
 """
 
 
