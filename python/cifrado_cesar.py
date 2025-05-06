@@ -24,7 +24,7 @@ archivo_salida = input('Archivo con mensaje cifrado:')
 MAX_DESP = ord('z') - ord('a')
 
 desplazamiento_césar = -1
-while 0 <= desplazamiento_césar <= MAX_DESP:
+while not 0 <= desplazamiento_césar <= MAX_DESP:
   desplazamiento_césar = input('Introduzca un desplazamiento válido: ')
 
 
