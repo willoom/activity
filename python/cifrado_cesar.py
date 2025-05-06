@@ -25,6 +25,9 @@ MAX_DESP = ord('z') - ord('a')
 
 desplazamiento_césar = -1
 while not 0 <= desplazamiento_césar <= MAX_DESP:
-  desplazamiento_césar = input('Introduzca un desplazamiento válido: ')
+  try:
+    desplazamiento_césar = int(input('Introduzca un desplazamiento válido: '))
+  except ValueError:
+    print(f'No introdujo un entero entre 0 y {MAX_DESP}.')
 
 
