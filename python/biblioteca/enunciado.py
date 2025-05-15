@@ -36,8 +36,8 @@ Sólo están en memoria al principio.
 """
 libro_nes = LibroIncunable("9780385176224","Never Ending Story", "Michael Ende", FANTASIA, FANTASIA_INFANTIL)
 libro_m = LibroAlmacenado("9788418850837","Murtagh", "Christopher Paolini", FANTASIA, FANTASIA_INFANTIL)
-libro_eq = LibroAlmacenado(,"El Quijote", "Miguel de Cervantes Saavedra", NOVELA, NOVELA_MEDIEVAL)
-libro_tlb = LibroAlmacenado(, "Tirant Lo Blanch", "Joanot Martorell", NOVELA, NOVELA_MEDIEVAL)
+libro_eq = LibroAlmacenado("9788481093353","El Quijote", "Miguel de Cervantes Saavedra", NOVELA, NOVELA_MEDIEVAL)
+libro_tlb = LibroAlmacenado("9788420639901", "Tirant Lo Blanch", "Joanot Martorell", NOVELA, NOVELA_MEDIEVAL)   
 
 
 """
@@ -51,7 +51,7 @@ bastian.fecha_posible_para_préstamo = "05012035"
 # Hermione siempre intenta llevarse más de un libro a la vez.
 hermione = Lector("55555555Y", "Hermione", "Granger", "Weasly")
 
-# Augusto Odone es un hombre sencillo que trata de comprender cosas complejas
+# Augusto Odone es un hombre sencillo que trata de comprender cosas complejas,
 # sacando un libro cada vez.
 augusto = Lector("66666666Z", "Augusto", "Odone", "Murphy")
 
@@ -94,3 +94,7 @@ biblioteca.prestar(libro_eq, hermione)
 biblioteca.prestar(libro_m, augusto)
 biblioteca.recibir(libro_m.isbn, augusto)
 biblioteca.prestar(libro_eq, augusto)
+
+
+
+
