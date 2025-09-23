@@ -11,7 +11,7 @@
 // Puedes insertar código donde aparecen los comentarios 
 // "Aquí tu código"
 
-// No puedes usar ninguna estructura vista hasta ahora.
+// Sólo puedes usar las estructuras vistas hasta ahora.
 
 Algoritmo mostrar_dia_seleccionado_de_tres_usuarios
 
