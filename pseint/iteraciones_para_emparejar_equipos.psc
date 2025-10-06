@@ -1,9 +1,10 @@
-// Fecha : 1 de octubre de 2025
+// Fecha : 6 de octubre de 2025
 // Autor : Francisco Yuste García
 // Nombre : iteraciones para emparejar equipos
-// Descripción : 
+// Pre-requisito : 
 //     Implementa el ejercicio
 //     funcion_traductora_de_codigo_a_equipo.psc
+// Descripción:
 //     Escribe el código necesario para dar un primer emparejamiento 
 //     de equipos.
 // Restricciones:
@@ -29,7 +30,7 @@
 
 
 // Insuficiente:
-// Sospecha de IA.
+// Sospecha de IA u otro caso.
 
 // Este algoritmo ha de imprimir la lista de equipos que ya tienen un c?igo por defecto asignado.
 Algoritmo iteraciones_para_emparejar_equipos
