@@ -10,10 +10,6 @@
 // Restricciones:
 //     Un equipo sólo puede aparecer una vez.
 //     Todo equipo debe tener un emparejamiento.
-// Ejemplo válido de emparejamiento:
-//     Partido 1º : Betis - Espanyol
-//     ...
-//     Partido 10º: Fútbol Club Barcelona - Sevilla
 
 // RUBRICA
 
