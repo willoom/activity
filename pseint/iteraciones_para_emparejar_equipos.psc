@@ -10,6 +10,10 @@
 // Restricciones:
 //     Un equipo sólo puede aparecer una vez.
 //     Todo equipo debe tener un emparejamiento.
+// Ejemplo válido de emparejamiento:
+//     Partido 1º : Betis - Espanyol
+//     ...
+//     Partido 10º: Fútbol Club Barcelona - Sevilla
 
 // RUBRICA
 
@@ -31,6 +35,11 @@
 
 // Insuficiente:
 // Sospecha de IA u otro caso.
+
+// Ejemplo de emparejamiento válido:
+// Partido 1º : Sevilla - Real Sociedad
+// ...
+// Partido 10º: Espanyol - Fútbol Club Barcelona
 
 // Este algoritmo ha de imprimir la lista de equipos que ya tienen un c?igo por defecto asignado.
 Algoritmo iteraciones_para_emparejar_equipos
