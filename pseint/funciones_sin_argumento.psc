@@ -22,7 +22,8 @@
 // multiplicar. Del 1 al 5 arriba y del 6 al diez abajo. Han de estar 
 // alineadas.
 // 
-// 5. Función sin parámetros Solicita un entero sin signo y dibuja un 
+// 5. Función sin parámetros cuadrado.
+// Solicita un entero sin signo y dibuja un 
 // cuadrado con el carácter "C"
 // 
 // Ejemplo si el usuario introduce 4:
