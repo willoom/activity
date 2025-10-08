@@ -10,3 +10,6 @@
 # Haz de emplear read, while y la redirección a entrada estándar.
 
 # El fichero a comentar se recibe como un primer parámetro.
+
+# Conservad, a ser posible, los espacios al inicio y al final del fichero pasado 
+# como parámetro.
