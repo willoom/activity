@@ -12,19 +12,19 @@
 // 
 // 2. Función traduce_a_entero.
 // Recibe una cadena de caracteres.
-// Si la cadena es_entero haz de calcular a partir de los caracteres de 
-// dígito el número final resultante.
+// Si la cadena es_entero_sin_signo haz de calcular a partir de los 
+// caracteres de dígito el número final resultante.
 // 
-// 3. Función sin parámetros tabla_de_multiplicar. Solicita entero sin signo 
-// entre 1 y diez. Muestra por pantalla la tabla de multiplicar asociada.
+// 3. Función sin parámetros tabla_de_multiplicar. 
+// Solicita entero sin signo entre 1 y diez. 
+// Muestra por pantalla la tabla de multiplicar asociada.
 // 
-// 4. Función sin parámetros tablas_de_multiplicar. Imprime las tablas de 
-// multiplicar. Del 1 al 5 arriba y del 6 al diez abajo. Han de estar 
-// alineadas.
+// 4. Función sin parámetros tablas_de_multiplicar. 
+// Imprime las tablas de multiplicar. 
+// Del 1 al 5 arriba y del 6 al diez abajo. Han de estar alineadas.
 // 
-// 5. Función sin parámetros cuadrado.
-// Solicita un entero sin signo y dibuja un 
-// cuadrado con el carácter "C"
+// 5. Función sin parámetros imprime_cuadrado.
+// Solicita un entero sin signo y dibuja un cuadrado con el carácter "C"
 // 
 // Ejemplo si el usuario introduce 4:
 // 
@@ -37,9 +37,11 @@
 // Devuelve Verdadero si el número no es divisible entre dos y
 // Falso en otro caso.
 // 
-// 7. Función sin parámetros triangulo_rectangulo. Solicita número mayor de 
-// uno. Dibuja triangulo rectángulo con dos catetos iguales, uno a la 
-// izquierda y otro abajo. Se ha de dibujar con el carácter "T".
+// 7. Función sin parámetros imprime_triangulo_rectangulo. 
+// Solicita número mayor de uno. 
+// Dibuja triangulo rectángulo con dos catetos iguales, uno a la 
+// izquierda y otro abajo. 
+// Se ha de dibujar con el carácter "T".
 // 
 // Ejemplo de usuario que selecciona el 4:
 // 
@@ -59,8 +61,9 @@
 //  PPP
 // PPPPP
 // 
-// 9. Función sin parámetros imprime_rombo. Ingresa un número impar. Imprime 
-// rombo de ancho el número introducido por el usuario.
+// 9. Función sin parámetros imprime_rombo. 
+// Ingresa un número impar. 
+// Imprime rombo de ancho el número introducido por el usuario.
 // 
 // Ejemplo de usuario que selecciona el 5.
 // 
@@ -86,7 +89,7 @@
 // 
 // Tienes que mostrar al usuario una descripción de lo que hace cada opción.
 // 
-// Haz de usar nombres descriptivos para todos los identificadores que 
+// Has de usar nombres descriptivos para todos los identificadores que 
 // definas: variables, funciones, etc.
 // 
 // Debes comentar adecuadamente el código.
