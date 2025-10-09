@@ -1,0 +1,22 @@
+Uno de los tipos de datos recurrentes en los lenguajes de programación
+son las cadenas de caracteres.
+
+Cómo trabajar con ellas puede venir integrado en el propio lenguaje o
+a través de librerías externas de funciones que debemos conocer y que 
+en su conjunto denominamos API.
+
+La palabra API son las siglas de Application Programming Interface, que en 
+castellano puede traducirse como interfaz de programación de aplicaciones.
+
+Hoy conoceremos algunas funciones para el tratamiento de cadenas de 
+caracteres en Bash:
+
+${#cadena} devuelve un entero con la extensión en caracteres 
+de la cadena.
+
+[A-Z] es una expresión regular para detectar mayúsculas.
+
+[a-z] es una expresión regular para detectar minúsculas.
+
+${cadena1}${cadena2} devuelve una cadena que es resultado de
+anexar cadena2 al final de cadena1. 
