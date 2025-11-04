@@ -21,7 +21,7 @@
 // "El número hexadecimal introducido X es Y en base diez."
 // 
 // Pista: 
-// L-a conversión de la base hexadecimal a decimal es del 0 al 9, tal cual. 
+// La conversión de la base hexadecimal a decimal es del 0 al 9, tal cual. 
 // A partir de la A, la A corresponde al 10, la B al 11, la C al 12, la D al 13, la E al 14 y la F al 15.
 // 
 // 3. La opción dos solicita un número entero positivo en base diez y lo traduce a hexadecimal.
