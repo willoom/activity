@@ -1,0 +1,32 @@
+// AUTOR: Francisco Yuste García
+// FECHA: 4 de noviembre de 2025
+// RESUMEN: Programa de cambios entre base 10 y 16
+// 
+// Un número hexadecimal es cualquiera producido a partir de la base
+// {0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F}.
+// 
+// 1. Muestra un menú que muestre tres opciones:
+// 
+// 1 -> Convertir de hexadecimal a decimal
+// 2 -> Convertie de decimal a hexadecimal.
+// 0 -> Salir
+// 
+// Si el usuario introduce una opción no válida se le informa con un mensaje "Opción de menú no válida." y se vuelve a mostrar el menú.
+// El programa deba acabar cuando el usuario introduzca el cero.
+// 
+// 2. La opción uno solicita al usuario un número hexadecimal entero sin signo válido.
+// Las miníusculas se considerarán letras erróneas para definir un hexadecimal.
+// Si el número introducido no es válido se mostrará el mensaje "Número hexadecimal inválido." y se volverá a solicitar el hexadecimal.
+// Una vez se haya introducido un número hexadecimal válido, el programa mostrará un mensaje del tipo
+// "El número hexadecimal introducido X es Y en base diez."
+// 
+// Pista: la conversión de la base hexadecimal a decimal es del 0 al 9, tal cual. A partir de la A, la A corresponde al 10, la B al 11, la C al 12, la D al 
+// 13, la E al 14 y la F al 15.
+// 
+// 3. La opción dos solicita un número entero positivo en vase diez y lo traduce a hexadecimal.
+// Si el número introducido no es válido se mostrará el mensaje "Número decimal inválido." y se volverá a solicitar el decimal.
+// Una vez se haya introducido un número decimal válido, el programa mostrará un mensaje del tipo.
+// "El número decimal introducido X es Y en base hexadecimal."
+// 
+// Define cuantas funciones auxiliares consideres oportunas en aras de la claridad y mantenibilidad del código.
+// Debes documentar todas las secciones, especialmente donde aparezcan fórmulas complicadas.
