@@ -1,0 +1,36 @@
+Escribe un script que solicite al usuario dos números.
+
+Tienes que asegurarte de que son enteros sin signo y de que el primero es 
+menor estrictamente que el segundo.
+
+A continuación imprime los números impares entre el primer número 
+introducido y el segundo.
+
+Se recuerda de que se trata de un script en CMD.
+
+Debe comenzar por
+
+@echo off
+
+REM AUTOR o AUTORA: Nombre y apellidos.
+
+REM FECHA: Día de hoy.
+
+REM RESUMEN: Breve descripción de la finalidad del script
+
+REM Establecemos la página de códigos para representar los caracteres 
+especiales de nuestro idioma.
+
+chcp 65001
+
+Debéis mostrarlo en clase.
+
+Pista 1.
+
+Para comprobar si una variable CMD es un número sólo es necesario intentar 
+una operación aritmética.
+
+Si no da error será un entero y en otro caso, no lo será PERO...
+
+Lo ideal es aplicar una expresión regular y comprobar así que el valor es 
+un entero sin signo.
