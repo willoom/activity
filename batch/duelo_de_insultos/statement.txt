@@ -1,0 +1,42 @@
+En el juego del Monkey Island 1 los duelos de espada se ganaban con el insulto apropiado 
+en el momento apropiado.
+
+Observa todas los insultos y respuestas adecuadas en la web de 
+https://gamelosofy.com/los-insultos-de-el-secreto-de-monkey-island-1/
+
+Elige el insulto de la Swordmaster u otro personaje.
+
+Muestra al usuario la respuesta adecuada que debería dar Guybrush en medio de otras respuestas que no 
+serían válidas. La posición la eliges tú.
+
+Acabado.
+
+No es necesario que las respuestas posibles al insulto cambien de posición aleatoriamente.
+Simplemente elige unas cuatro respuestas más y ponlas en un menú para que el udsuario pueda elegir.
+
+Ejemplo de ejecución.
+
+He elegido el INSULTO del simio cuya RESPUESTA es 
+"Me alegra que asistieras a la reunión familiar diaria". 
+
+INSULTO: ¡He hablado con simios más educados que tú!
+
+RESPUESTAS A ELEGIR:
+1: Primero deberías dejar de usarla como un plumero.
+2: Qué apropiado, tú peleas como una vaca.
+3: Me alegra que asistieras a tu reunión familiar diaria. 
+4: Ya te están fastidiando otra vez las almorranas, ¿eh?.
+5: Quería asegurarme de que estuvieras a gusto conmigo.
+
+Si el usuario no selecciona la opción tres, por el orden en el que he definido el menú, estará 
+seleccionando una respuesta incorrecta y el script mostrará por pantalla:
+"¡Te vencí mequetrefe!".
+
+Si el usuario selecciona la opción tres, con la respuesta correcta, el script mostrará:
+"Me has vencido. Me uno a tu tripulación."
+
+Pista.
+
+Investiga la instrucción CHOICE y su relación con la variable ERRORLEVEL del CMD:
+https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/choice
+
