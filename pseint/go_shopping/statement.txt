@@ -141,7 +141,7 @@ El programa pregunta
 ¿Es usted docente (S/N)? N
 
 El programa pregunta
-¿Posee título de familia numerosa (S/N)? N
+¿Posee título de familia numerosa (S/N)? S
 
 TICKET DE COMPRA
 
