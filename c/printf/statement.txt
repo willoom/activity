@@ -1,0 +1,66 @@
+﻿Nivel básico 
+
+    1. Imprimir un texto simple: Escribe un programa que muestre el mensaje "¡Hola, mundo!".
+
+    2. Imprimir un número: Muestra un número entero, como 10.
+
+    3. Imprimir una variable de tipo entero: Declara una variable entera (int), asígnale un valor (por ejemplo, 5) 
+      y luego imprímela usando %d.
+
+    4. Imprimir una variable de tipo carácter: Declara una variable de tipo carácter (char), asígnale un carácter 
+      (por ejemplo, 'A') y luego imprímelo usando %c.
+
+    5. Imprimir una variable de tipo flotante: Declara una variable de tipo flotante (float), asígnale un valor 
+      (por ejemplo, 3.14) y luego imprímelo usando %f. 
+
+Nivel intermedio 
+
+    6. Imprimir múltiples variables: Declara varias variables de diferentes tipos (entero, carácter, flotante) 
+      y imprímelas en una sola línea, separadas por espacios o texto.
+
+    7. Formatear la salida de un número flotante: Imprime un número flotante, pero limita el número de decimales a 
+      dos (por ejemplo, 3.14). Usa %.2f para esto.
+
+    8. Alinear texto: Imprime una variable entera de tal manera que ocupe un ancho fijo de cinco.
+
+    9. Imprimir caracteres de escape: Imprime un texto que incluya una nueva línea (\n) y una tabulación (\t): 
+       "Línea 1\n\tLínea 2". 
+
+Nivel avanzado 
+
+    10. Imprimir variables con formato combinado: Imprime una combinación de texto y variables, como 
+        "El resultado es numero X con precision Y decimales." donde X e Y son variables.
+
+    11. Imprimir el valor de una constante simbólica: Declara una constante con const (por ejemplo, 
+       const int PI = 3;) y luego imprímela.
+
+    12. Imprimir una cadena de caracteres (string): Declara una cadena de texto 
+       char nombre[] = "Juan"; y luego imprímela usando %s.
+
+    13. Usar el operador ternario en printf: Crea una expresión condicional y usa su resultado directamente
+       en printf 
+      printf("El número es %s.\n", (numero > 10) ? "mayor que 10" : "menor o igual que 10");.
+
+    14. Imprimir números en formato hexadecimal o octal: Utiliza %x para hexadecimal o %o para octal.
+
+
+Nivel extraordinario
+
+Para cambiar el color de la fuente en C, debes usar secuencias de escape ANSI dentro de
+printf, como \033[<código>;<código>m para establecer el color, y \033[0m para restablecerlo. 
+
+Un ejemplo básico es printf("\033[0;31mTexto en rojo\033[0m");, que imprime texto en rojo. 
+Puedes combinar códigos para diferentes formatos y colores.
+
+
+
+    15. Imprime por pantalla "Los colores básicos RGB son rojo, verde y azul." 
+      Colorea las letras del color oportuno.
+
+    16. Imprime por pantalla "Es de suprema importancia que te autoexijas más que el profesor para 
+      alcanzar la EXCELENCIA." Subraya "suprema importancia" y pon en negrita "alcanzar la EXCELENCIA".
+ 
+    17. Imprimir por pantalla "Es tu hora de decidir Neo. ¿Eligirás la pastilla roja o la pastilla azul?".
+      Subraya "Es tu hora de decidir". Pon en negrita y verde "Neo". Pon la "pastilla roja en rojo y negrita.
+      Pon la "pastilla azul" en color azul.
+
