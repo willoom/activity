@@ -11,7 +11,7 @@
       (por ejemplo, 'A') y luego imprímelo usando %c.
 
     5. Imprimir una variable de tipo flotante: Declara una variable de tipo flotante (float), asígnale un valor 
-      (por ejemplo, 3.14) y luego imprímelo usando %f. 
+      (por ejemplo, 3.1416) y luego imprímelo usando %f. 
 
 Nivel intermedio 
 
@@ -40,8 +40,9 @@ Nivel avanzado 
     13. Usar el operador ternario en printf: Crea una expresión condicional y usa su resultado directamente
        en printf 
       printf("El número es %s.\n", (numero > 10) ? "mayor que 10" : "menor o igual que 10");.
+      Probadlo con número igual a 5 y con número igual a 55. Mostrad las dos líneas.
 
-    14. Imprimir números en formato hexadecimal o octal: Utiliza %x para hexadecimal o %o para octal.
+    14. Imprimir números en formato hexadecimal u octal: Utiliza %x para hexadecimal o %o para octal.
 
 
 Nivel extraordinario
@@ -61,6 +62,6 @@ Puedes combinar códigos para diferentes formatos y colores.
       alcanzar la EXCELENCIA." Subraya "suprema importancia" y pon en negrita "alcanzar la EXCELENCIA".
  
     17. Imprimir por pantalla "Es tu hora de decidir Neo. ¿Eligirás la pastilla roja o la pastilla azul?".
-      Subraya "Es tu hora de decidir". Pon en negrita y verde "Neo". Pon la "pastilla roja en rojo y negrita.
+      Subraya "Es tu hora de decidir". Pon en negrita y verde "Neo". Pon la "pastilla" roja en rojo y negrita.
       Pon la "pastilla azul" en color azul.
 
