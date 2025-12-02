@@ -1,4 +1,6 @@
-﻿Nivel básico 
+﻿Por homogeneidad nombrad cada apartado como printf_X.c, donde X es el número de apartado que respondéis.
+
+Nivel básico 
 
     1. Imprimir un texto simple: Escribe un programa que muestre el mensaje "¡Hola, mundo!".
 
@@ -52,8 +54,6 @@ printf, como \033[<código>;<código>m para establecer el color, y \033[0m para 
 
 Un ejemplo básico es printf("\033[0;31mTexto en rojo\033[0m");, que imprime texto en rojo. 
 Puedes combinar códigos para diferentes formatos y colores.
-
-
 
     15. Imprime por pantalla "Los colores básicos RGB son rojo, verde y azul." 
       Colorea las letras del color oportuno.
