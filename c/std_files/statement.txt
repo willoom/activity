@@ -1,0 +1,25 @@
+Escribe un programa alcanzando cada uno de niveles de acabado.
+
+El programa se invoca como: 
+cuenta_fichero<ejemplo.txt
+
+INICIAL:
+Muestras por pantalla el mensaje:
+"El fichero posee X caracteres.", donde X el el número de caracteres que contiene todo el texto. 
+
+BÁSICO:
+Muestras por pantalla el mensaje:
+"El fichero contiene L líneas."
+Cuenta los caracteres \n que aparecen.
+
+AVANZADO:
+Muestras por pantalla el mensaje:
+"El texto posee R retornos de carro, E espacioes y T tabuladores."
+Ten en cuenta espacios, retornos de líneas y tabuladores.
+
+
+EXTRAORDINARIO:
+Muestras por pantalla el mensaje:
+"El fichero contiene P palabras."
+Ten en cuenta espacios, retornos de líneas y tabuladores como delimitadores de palabras.
+Una sucesión de espacios, retornos de carro y tabuladores no cuentan como varias palabras.
