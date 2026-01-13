@@ -56,33 +56,7 @@ int main() {
     char inicial;
     int esEstudiante;
 
-    // Solicitud de datos
-    printf("Ingresa tu nombre: ");
-    scanf("%49s", nombre);
-
-    printf("Ingresa tu edad: ");
-    scanf("%d", &edad);
-
-    printf("Ingresa tu estatura en metros (ejemplo 1.75): ");
-    scanf("%f", &estatura);
-
-    printf("Ingresa tu peso en kilogramos (ejemplo 70.5): ");
-    scanf("%lf", &peso);
-
-    printf("Ingresa la inicial de tu apellido: ");
-    scanf(" %c", &inicial); // Espacio antes de %c para evitar captura de salto de línea
-
-    printf("¿Eres estudiante? (1 = sí, 0 = no): ");
-    scanf("%d", &esEstudiante);
-
-    // Salida de datos
-    printf("\n--- Datos Ingresados ---\n");
-    printf("Nombre: %s\n", nombre);
-    printf("Edad: %d\n", edad);
-    printf("Estatura: %.2f m\n", estatura);
-    printf("Peso: %.2lf kg\n", peso);
-    printf("Inicial del apellido: %c\n", inicial);
-    printf("Estudiante: %s\n", esEstudiante ? "Sí" : "No");
+    // Aquí vuestro código
 
     return 0;
 }
