@@ -28,7 +28,7 @@ Muestra por pantalla "El IMC asociado a NOMBRE es de IMC."
 ACABADO DESTACADO
 Si el paciente es mayor de edad, el programa catalogará su IMC.
 
-"Por tanto, cualitativamente podemos afirmar que el IMC del paciente MAYOR (o MENOR) de edad es "
+"Por tanto, cualitativamente podemos afirmar que el IMC del paciente MAYOR de edad es "
 En caso de que sea mayor de edad y el IMC esté en el rango...
 ... menor de 18.5 -> "bajo peso."
 ... mayor o igual a 18.5 y menor de 25 -> "normal."
