@@ -41,8 +41,8 @@ ____ AVANZADO ____
 A partir de los datos recibidos, creáis el pie de la carta.
 
 ____ EXTRAORDINARIO ___
-Colorea en verde y negrita los datos del viajero y azul y negrita las iniciales del comercial.
-
+Colorea en verde y negrita los datos del viajero, en azul y negrita las 
+iniciales del comercial y en amarillo y negrita los datos del viaje.
 
 */
 
