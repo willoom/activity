@@ -32,10 +32,10 @@ cliente_apellido, cliente_nombre,
 cliente_edad, destino, 
 estacion, 
 comercial_nombre, comercial_apellido1, comercial_apellido2
-y les asignáis 
+y les asignáis los valores oportunos de argv.
 
 ____ BASICO ____
-Generáis la carta de confirmación de viaje hasta confiamos que le guste.
+Generáis la carta de confirmación de viaje hasta "Confiamos que le guste".
 
 ____ AVANZADO ____
 A partir de los datos recibidos, creáis el pie de la carta.
