@@ -9,7 +9,7 @@ En el caso base recibimos el array con inicio y final que incluye sólo a dos el
 Si el de la izquierda es menor o igual que el de la derecha no se hace nada. 
 En otro caso los elementos se intercambian.
 
-En el caso inductivo, tenemos un subarray cuya extensión también es potencia de dos.
+En el caso recursivo, tenemos un subarray cuya extensión también es potencia de dos.
 Llamamos a la función recursiva con la primera mitad y luego con la segunda. 
 El resultado será día subarrays ordenados de menor a mayor. 
 Luego desde el primer elemento de cada subarray iremos comparando e intercambiando cuando sea necesario.
@@ -38,7 +38,7 @@ void imprimir_array_de_enteros(int numeros[], int maximo){
 }
 
 
-void mergesort(int numeros[], int inicio, int fin) {
+int* mergesort(int numeros[], int inicio, int fin) {
 	// Aquí vuestro código
 }
 
@@ -77,12 +77,15 @@ int main() {
 	/*
 		Ordena la cadena de enteros de menor a mayor.
 	*/
-	mergesort(datos,0,MAXDATOS-1);
+	int* datos_ordenados = mergesort(datos,0,MAXDATOS-1);
 	
 	/*
 		Imprime la lista de enteros ordenada, con coma y espacios entre ellos, 
 		sin importar que alguno se corte al final de la línea.
 	*/
-	imprimir_array_de_enteros(datos, MAXDATOS);
+	imprimir_array_de_enteros(datos_ordenados, MAXDATOS);
+
+	// Liberamos el espacio de los datos ordenados.
+	free(datos_ordenados);
 	
 }
