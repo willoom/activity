@@ -26,8 +26,20 @@ Definid cuantas funciones se requieren así como las auxiliares que consideréis
 
 #define MAXDATOS 256;
 
+
+
 /*
-	Recibe dos posiciones
+
+	Recibe un array de enteros una posición inicial izquierda desde la que copiará
+	hasta la derecha, incluyendo ambnas posiciones.
+
+	Tendréis que reservar la memoria necesaria con malloc.
+*/
+int* copia_subarray_de_enteros(int numeros[], int izquierda, int derecha) {
+}
+
+/*
+	Recibe dos posiciones e intercambia los valores en esas posiciones del array.
 */
 void intercambiar_valores(int numeros[], int origen, int destino) {
 	// Aquí vuestro código
@@ -37,8 +49,12 @@ void imprimir_array_de_enteros(int numeros[], int maximo){
 	// Aquí vuestro código
 }
 
-
-int* mergesort(int numeros[], int inicio, int fin) {
+/*
+	Este algoritmo  ordena lo valores de izquierda a derecha de menor a mayor.
+	Debéis usar la función copia_subarray_de_enteros y liberar el espacio cuando 
+	el subarray no sea necesario. 
+*/
+void mergesort(int numeros[], int izquierda, int derecha) {
 	// Aquí vuestro código
 }
 
@@ -77,15 +93,15 @@ int main() {
 	/*
 		Ordena la cadena de enteros de menor a mayor.
 	*/
-	int* datos_ordenados = mergesort(datos,0,MAXDATOS-1);
+	mergesort(datos,0,MAXDATOS-1);
 	
 	/*
 		Imprime la lista de enteros ordenada, con coma y espacios entre ellos, 
 		sin importar que alguno se corte al final de la línea.
 	*/
-	imprimir_array_de_enteros(datos_ordenados, MAXDATOS);
+	imprimir_array_de_enteros(datos, MAXDATOS);
 
 	// Liberamos el espacio de los datos ordenados.
-	free(datos_ordenados);
+	free(datos);
 	
 }
