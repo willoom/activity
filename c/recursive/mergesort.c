@@ -31,11 +31,12 @@ Definid cuantas funciones se requieren así como las auxiliares que consideréis
 /*
 
 	Recibe un array de enteros una posición inicial izquierda desde la que copiará
-	hasta la derecha, incluyendo ambnas posiciones.
+	hasta la derecha, incluyendo ambas posiciones.
 
 	Tendréis que reservar la memoria necesaria con malloc.
 */
 int* copia_subarray_de_enteros(int numeros[], int izquierda, int derecha) {
+	// Aquí vuestro código
 }
 
 /*
@@ -101,7 +102,4 @@ int main() {
 	*/
 	imprimir_array_de_enteros(datos, MAXDATOS);
 
-	// Liberamos el espacio de los datos ordenados.
-	free(datos);
-	
 }
