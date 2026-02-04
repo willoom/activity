@@ -23,8 +23,9 @@ Definid cuantas funciones se requieren así como las auxiliares que consideréis
 */
 
 #include<stdio.h>
+#include<stdlib.h>
 
-#define MAXDATOS 256;
+#define MAXDATOS 256
 
 
 
@@ -55,7 +56,7 @@ void imprimir_array_de_enteros(int numeros[], int maximo){
 	Debéis usar la función copia_subarray_de_enteros y liberar el espacio cuando 
 	el subarray no sea necesario. 
 */
-void mergesort(int numeros[], int izquierda, int derecha) {
+void ordenar_por_mezcla(int numeros[], int izquierda, int derecha) {
 	// Aquí vuestro código
 }
 
@@ -94,7 +95,7 @@ int main() {
 	/*
 		Ordena la cadena de enteros de menor a mayor.
 	*/
-	mergesort(datos,0,MAXDATOS-1);
+	ordenar_por_mezcla(datos,0,MAXDATOS-1);
 	
 	/*
 		Imprime la lista de enteros ordenada, con coma y espacios entre ellos, 
