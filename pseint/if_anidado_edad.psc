@@ -2,7 +2,7 @@
 // Autor: Willoom
 // Descripción
 
-// Ejercicio de estructura if.
+// Ejercicio de estructura if anidado.
 
 // Escribe un programa que pide la edad al usuario e imprime...
 // ... "Debería estar en casa tomándose sus pastillas.", si la persona tiene más de 80 y si no,
