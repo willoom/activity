@@ -34,3 +34,7 @@ Si no da error será un entero y en otro caso, no lo será PERO...
 
 Lo ideal es aplicar una expresión regular y comprobar así que el valor es 
 un entero sin signo.
+
+Ejemplo: 
+Si el usuario introduce como primer número un 1 y un 4 deberá aparecer por pantalla el 1 y el 3.
+Los números introducidos por el usuario han de incluirse.
