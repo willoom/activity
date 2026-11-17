@@ -14,5 +14,5 @@
 # momento de la invocación al script
 
 # Ejemplo de invocación:
-# ./reordena_nombre_apellidos Mario Vargas Llosa mostrará
+# ./reordena_nombre_apellidos.sh Mario Vargas Llosa mostrará
 # El nombre de expediente es Vargas Llosa, Mario.
